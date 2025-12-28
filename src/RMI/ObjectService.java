@@ -10,6 +10,6 @@ import java.rmi.*;
  * @author Admin
  */
 public interface ObjectService {
-    public Serializable requestObject(String studentCodeString, String qAlias) throws RemoteException;
-    public void submitObject(String studentCodeString, String qAlias, Serializable object) throws RemoteException;
+    public Serializable requestObject(String studentCodeString, String qCode) throws RemoteException;
+    public void submitObject(String studentCodeString, String qCode, Serializable object) throws RemoteException;
 }
